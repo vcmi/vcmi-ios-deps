@@ -9,7 +9,7 @@ Current status:
 
 ## Using prebuilt package
 
-Download prebuilt libraries from [Releases](https://github.com/kambala-decapitator/vcmi-ios-depends/releases) page (they are created with GitHub Actions), unpack the archive and run `fix_install_paths.command` script (either by double-clicking it or from Terminal). Full build instructions are available on [VCMI wiki](https://wiki.vcmi.eu/How_to_build_VCMI_(iOS)).
+Download prebuilt libraries from [Releases](https://github.com/vcmi/vcmi-ios-deps/releases) page (they are created with GitHub Actions), unpack the archive and run `fix_install_paths.command` script (either by double-clicking it or from Terminal). Full build instructions are available on [VCMI wiki](https://wiki.vcmi.eu/How_to_build_VCMI_(iOS)).
 
 If you move the unpacked directory later, you also need to run the script, as it fixes absolute paths in Boost's CMake config files.
 
