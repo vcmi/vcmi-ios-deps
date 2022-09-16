@@ -1,0 +1,1 @@
+This is a build of LuaJIT for armv7 targeting iOS 9.0 that was done in macOS 10.13.6 with Xcode 9.4.1 from https://github.com/LuaJIT/LuaJIT/commit/50936d784474747b4569d988767f1b5bab8bb6d0
