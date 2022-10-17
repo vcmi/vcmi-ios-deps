@@ -1,5 +1,7 @@
 # VCMI dependencies for iOS
 
+***NB: the following instructions are for legacy dependencies that are no longer updated. You can still use them if you have Xcode 11/12 or to build for simulator / armv7 device. The recommended way is to use [Conan package manager](https://github.com/vcmi/vcmi/tree/develop/docs/conan.md).***
+
 Library dependencies for iOS platform of [VCMI project](https://github.com/vcmi/vcmi).
 
 Current status:
@@ -9,7 +11,7 @@ Current status:
 
 ## Using prebuilt package
 
-Download prebuilt libraries from [Releases](https://github.com/vcmi/vcmi-ios-deps/releases) page (they are created with GitHub Actions), unpack the archive and run `fix_install_paths.command` script (either by double-clicking it or from Terminal). Full build instructions are available on [VCMI wiki](https://wiki.vcmi.eu/How_to_build_VCMI_(iOS)).
+Download [prebuilt libraries](https://github.com/vcmi/vcmi-ios-deps/releases/tag/1.0) (they were created with GitHub Actions), unpack the archive and run `fix_install_paths.command` script (either by double-clicking it or from Terminal). Full build instructions are available on [VCMI wiki](https://wiki.vcmi.eu/How_to_build_VCMI_(iOS)).
 
 If you move the unpacked directory later, you also need to run the script, as it fixes absolute paths in Boost's CMake config files.
 
