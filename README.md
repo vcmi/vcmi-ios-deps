@@ -15,11 +15,11 @@ Download [prebuilt libraries](https://github.com/vcmi/vcmi-ios-deps/releases/tag
 
 If you move the unpacked directory later, you also need to run the script, as it fixes absolute paths in Boost's CMake config files.
 
-### Note for arm Macs
+### Note for ARM Macs
 
-Qt is built on an Intel host, hence host Qt tools (MOC, UIC etc.) are x86_64. To obtain their native versions, you need to configure Qt manually and then build only those tools.
+Qt is built on an Intel host, hence host Qt tools (MOC, UIC etc.) are x86_64. If you want to obtain their native versions (for example, you don't want to use Rosetta), you need to configure Qt manually and then build only those tools.
 
-1. Download and unpack [qtbase module](https://download.qt.io/official_releases/qt/5.15/5.15.5/submodules/qtbase-everywhere-opensource-src-5.15.5.tar.xz).
+1. Download and unpack [qtbase module](https://download.qt.io/official_releases/qt/5.15/5.15.5/submodules/qtbase-everywhere-opensource-src-5.15.5.tar.xz). Note that the link is for v5.15.5, replace the version as needed.
 2. From some build directory execute:
 
 ```bash
