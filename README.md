@@ -1,6 +1,6 @@
 # VCMI dependencies for iOS
 
-***NB: the following instructions are for legacy dependencies that are no longer updated. You can still use them if you have Xcode 11/12 or to build for simulator / armv7 device. The recommended way is to use [Conan package manager](https://github.com/vcmi/vcmi/tree/develop/docs/conan.md).***
+***NB: the following instructions are for legacy dependencies that are no longer updated. You can still use them if you have Xcode 11/12 or to build for simulator / armv7 device. The recommended way is to use [Conan package manager](https://github.com/vcmi/vcmi/blob/develop/docs/developers/Conan.md).***
 
 Library dependencies for iOS platform of [VCMI project](https://github.com/vcmi/vcmi).
 
